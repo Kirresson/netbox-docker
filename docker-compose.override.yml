@@ -2,9 +2,6 @@ services:
   netbox:
     ports:
     - 8080:8080
-    build:
-      context: .
-      dockerfile: Dockerfile
     volumes:
     - /volume2/docker/netbox:/etc/netbox/config:z,ro
     - netbox-media-files:/opt/netbox/netbox/media:z,rw
