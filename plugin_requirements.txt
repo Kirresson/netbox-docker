@@ -1,1 +1,1 @@
-netbox-topology-views
+netbox_topology_views
